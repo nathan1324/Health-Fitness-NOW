@@ -1,0 +1,76 @@
+body 
+{	
+	background-color: #FCC706;
+	color:#FFFFFF;
+	font-family: Arial, helvetica, sans-serif; 			
+	background-image: linear-gradient(to bottom, #000000, #FCC706); 
+	background-repeat: no-repeat; 
+}
+
+header 
+{
+	background-color:#000000; 
+	color:#FFFFFF; 
+	background-image: url(barbell.jpg);
+	background-repeat: no-repeat; 
+	background-position: center;
+	height: 160px;
+	padding-top: 15px;
+	text-align: center; 
+}
+
+nav 
+{
+	top-nav
+	font-weight:bold;
+	padding: 20px 5px 0px 20px;
+	float: left;
+	width: 160px;
+}
+	
+nav ul 
+{
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+}
+	
+nav a 
+{
+	text-decoration:none;padding-right:10px;
+}
+
+nav a:link 
+{
+	color: #000000;
+}
+
+nav a:visited 
+{
+	color: #344873;
+}
+
+nav a:hover 
+{
+	color: #FFFFFF;
+}
+
+#wrapper 
+{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 960px;
+	max-width: 2048px;
+	background-color: #FFFFFF;
+	box-shadow: 3px 3px 3px #000000;
+}
+
+#homehero
+{
+	height: 300px; 
+	margin-left: 190px;
+	background-image: url(coasthero.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
